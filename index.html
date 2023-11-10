@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pavanjadhav</title>
+    <!--==================Linked Css file===============-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/pavan.jpg" />
+    <!--========Bootstrap Css Cdn Link==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script type="text/javascript">
+      function TimeLoad() {
+        var time = new Date();
+        document.querySelector("#time").innerHTML = time.toLocaleTimeString();
+      }
+      function BodyLoad() {
+        setInterval(TimeLoad, 1000);
+      }
+    </script>
+  </head>
+  <body onload="BodyLoad()">
+    <!--=======================Header part=========================-->
+    <header>
+      <nav>
+        <div
+          class="navbar navbar-dark bg-dark navbar-expand-lg navbar-fixed-top"
+        >
+          <div class="container">
+            <a class="navbar-brand text-warning" style="font-size: 40px"
+              >WEB DEVELOPER</a
+            >
+            <button
+              class="navbar-toggler"
+              data-bs-target="#navbar-items"
+              data-bs-toggle="collapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="navbar-collapse collapse justify-content-end"
+              id="navbar-items"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item me-3 text-center">
+                  <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item me-3 text-center">
+                  <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item me-3 text-center">
+                  <a href="#courses" class="nav-link">Course</a>
+                </li>
+                <li class="nav-item me-3 text-center">
+                  <a href="#skill" class="nav-link">Skill</a>
+                </li>
+                <li class="nav-item me-3 text-center">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <!--=================== Date & Timer =========-->
+                  <div id="timer">
+                    <span id="date"></span>
+                    <span id="time"></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--============================ Introduction Section ======================= -->
+    <section class="introduction" id="home">
+      <div class="container" id="home-back" style="background-color: #f7f7f7">
+        <div class="row justify-content-evenly">
+          <div class="col-lg-5">
+            <font size="5" color="grey">Hi,I'm </font
+            ><font size="5" class="text-dark" color="brown"
+              ><b>Pavan Jadhav</b></font
+            ><br />
+            <!-- Element to contain animated typing -->
+            <span id="element"></span>
+            <p>
+              Hello sir/madam, i'm Pavan Jadhav, i have completed my BE from
+              Pune university and i have taken 6 month UI Fullstack training and
+              3 month ReactJS Training from hyderabad , now i'm looking job on
+              FrontEnd Web Developer as a fresher, do you have any vacancy
+              please dm me sir/madam.Thank you for your time.
+            </p>
+            <font color="black">FIND WITH ME</font>
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-dark btn-floating m-1 rounded rounded-circle"
+                href="https://www.facebook.com/pavan.jadhav.5249349"
+                role="button"
+                target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+
+              <!-- linkedin -->
+              <a
+                class="btn btn-outline-dark btn-floating m-1 rounded rounded-circle"
+                href="https://www.linkedin.com/in/pavan-jadhav-67baa1284/"
+                role="button"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+
+              <!-- instagram -->
+              <a
+                class="btn btn-outline-dark btn-floating m-1 rounded rounded-circle"
+                target="_blank"
+                href="https://www.instagram.com/pavanjadhav_1408/"
+                role="button"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <!--Twitter-->
+              <a
+                class="btn btn-outline-dark btn-floating m-1 rounded rounded-circle"
+                href="https://twitter.com/pavanjadha74028"
+                role="button"
+                target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <!-- download -->
+              <a
+                class="btn btn-outline-dark btn-floating m-1 rounded rounded-3"
+                href="./resume/Resume.pdf"
+                download="Pavan Jadhav Resume"
+                role="button"
+                ><i class="bi bi-download"></i> Download CV</a
+              >
+              <!--Twitter-->
+            </section>
+          </div>
+          <div class="col-lg-5 p-5">
+            <img
+              src="./images/pavan.jpg"
+              class="img-responsive mx-auto d-block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========================Education Section =================-->
+    <section id="education">
+      <div class="container" style="background-color: #e8eae3">
+        <div class="row justify-content-evenly">
+          <h1 class="text-center mt-3 mb-3" style="color: #8da242">
+            <span class="bi bi-mortarboard"></span>Education
+          </h1>
+          <div class="col-md-3">
+            <h3 class="text-center">BE in Mechanical Engineering</h3>
+            <b>CGPA&nbsp; :</b>&nbsp; 6.94
+            <p>
+              I have completed my Bachelor of Engineering from west Maharastra
+              <b>Pune University</b>, GS moze college balewadi pune.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-center">Diploma in Mechanical Engineering</h3>
+            <b>Percentage&nbsp; :</b>&nbsp; 66.53%
+            <p>
+              I have completed my Diploma from <b>MSBTE mumbai</b>,Matoshri
+              Pratishthan Vishwabharati Polytechnic Institute, Nanded .
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-center">SSC</h3>
+            <b>Percentage&nbsp; :</b>&nbsp;71%
+            <p>
+              I have completed 10th from Sanjay Gandhi Vidhyalaya ,Malegaon Road
+              Nanded.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================== Courses=============-->
+    <section id="courses">
+      <div class="container" style="background-color: #f6f4f2">
+        <div class="row justify-content-evenly">
+          <h1 class="text-center mt-3 mb-3" style="color: #8da242">
+            <span class="bi bi-mortarboard"></span>Courses
+          </h1>
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <h3 class="text-center">UI FullStack</h3>
+            <b>Duration&nbsp; :</b>&nbsp;
+            <font size="4">17 nov 2022 to 17 April 2023</font><br />
+            <b>Institute&nbsp; :</b>&nbsp;
+            <font size="4">Naresh i Technology Hyderabad.</font>
+            <p>
+              As a fresh in UI web development, I am excited to bring my skills
+              in HTML, CSS, and JavaScript to create visually appealing and
+              user-friendly web experiences. I am familiar with responsive web
+              design and have experience in creating cross-browser compatible
+              web pages. Additionally, I have understanding of web development
+              best practices and am dedicated to creating accessible,
+              high-performance websites. I am looking forward to working with a
+              team of developers and designers to build great web experiences.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3 class="text-center">ReactJS Developer</h3>
+            <b>Duration&nbsp; :</b>&nbsp;
+            <font size="4">6 may 2023 to 26 jully 2023</font><br />
+            <b>Institute&nbsp; :</b>&nbsp;
+            <font size="4">Naresh i Technology Hyderabad.</font>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3 class="text-center">Now Learning</h3>
+            <p class="text-center"><font size="5">Node.js</font></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--================= Skill ========================-->
+    <section id="skill">
+      <div class="container pb-5" style="background-color: #b4d0e7">
+        <!--Html & Css-->
+        <div class="row justify-content-evenly">
+          <h1 class="text-center mt-3 mb-3" style="color: rgb(48, 45, 28)">
+            Skill
+          </h1>
+          <!--First column-->
+          <div class="col-lg-5 col-md-12 col-sm-12 mt-2">
+            <div
+              class="card mb-3 p-2 h-100"
+              style="background-color: #ddedf4; color: black"
+            >
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="cards-image">
+                  <img
+                    src="./images/html-logo.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <div class="card-header" id="card-header">
+                    <h5 class="card-title">HTML</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      As a fresher in HTML programming language, I create
+                      responsive pages and websites using technologies. I will
+                      also learn use CSS (Cascading Style Sheets) to control the
+                      layout and design of your web pages. With a solid
+                      understanding of HTML and CSS, I will be able to create,
+                      static web and also dynamic pages and be well-prepared to
+                      learn more advanced web development technologies such as
+                      JavaScript and frameworks like React or Angular.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Second column-->
+          <div class="col-lg-5 col-md-12 col-sm-12 mt-2">
+            <div
+              class="card mb-3 p-2 h-100"
+              style="background-color: #ddedf4; color: black"
+            >
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="cards-image">
+                  <img src="./images/css-logo.jpg" class="card-img" alt="..." />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <div class="card-header" id="card-header">
+                    <h5 class="card-title">CSS</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      As a fresher in CSS (Cascading Style Sheets) technologies,
+                      I will control the layout and design of your web pages. I
+                      will also learn how to use CSS layout techniques create
+                      responsive and adaptive web pages that look great on all
+                      devices. Additionally, I will learn how to use CSS
+                      preprocessors such as Sass and Less to write more
+                      efficient and maintainable CSS, With a solid understanding
+                      of CSS, you will be able to create visually appealing and
+                      user-friendly web pages.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--====================================== Bootstrap & Sass ============================== -->
+        <!--bootstrap and css-->
+        <div class="row justify-content-evenly mt-2">
+          <!--bootstrap column-->
+          <div class="col-lg-5 col-md-12 col-sm-12">
+            <div
+              class="card mb-3 p-2 h-100"
+              style="background-color: #ddedf4; color: black"
+            >
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="cards-image">
+                  <img
+                    src="./images/bootstrap-logo.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <div class="card-header" id="card-header">
+                    <h5 class="card-title">BOOTSTRAP</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Bootstrap is a free, open source front-end development
+                      library for the creation of websites .bootstrap is a
+                      component library.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--sass column-->
+          <div class="col-lg-5 col-md-12 col-sm-12 mt-2">
+            <div
+              class="card mb-3 p-2 h-100"
+              style="background-color: #ddedf4; color: black"
+            >
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="cards-image">
+                  <img
+                    src="./images/sass-logo.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <div class="card-header" id="card-header">
+                    <h5 class="card-title">SASS</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      As a fresher in Sass, I will learn how to write more
+                      efficient and maintainable CSS. Sass is a CSS
+                      preprocessor, which means it allows you to use programming
+                      concepts such as variables, functions, and loops in your
+                      CSS. I will also learn how to use Sass features such as
+                      mixins, extends, and nesting to write more concise and
+                      readable CSS. With a solid understanding of Sass, you will
+                      be able to write more efficient and maintainable CSS, and
+                      be well-prepared to work on large and complex web
+                      projects.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--=============================== Javascript & ReactJS=====================-->
+
+        <div class="row justify-content-evenly mt-2">
+          <!--Javascript column-->
+          <div class="col-lg-5 col-md-12 com-sm-12">
+            <div
+              class="card mb-3 p-2 h-100"
+              style="background-color: #ddedf4; color: black"
+            >
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="cards-image">
+                  <img
+                    src="./images/javascript-logo.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <div class="card-header" id="card-header">
+                    <h5 class="card-title">JAVASCRIPT</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      As a fresher in JavaScript is a programming language that
+                      is widely used to add interactivity and dynamic
+                      functionality to web pages. I will learn how to use
+                      JavaScript to manipulate the DOM (Document Object Model),
+                      create and modify HTML elements, respond to user events,
+                      and create animations and effects, I will a solid
+                      understanding of JavaScript, I will be able to create
+                      interactive and dynamic web pages, and be well-prepared to
+                      learn more advanced web development technologies such as
+                      JavaScript frameworks like React or Angular, and libraries
+                      like jQuery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--React column-->
+          <div class="col-lg-5 col-md-12 col-sm-12 mt-2">
+            <div
+              class="card mb-3 p-2 h-100"
+              style="background-color: #ddedf4; color: black"
+            >
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="cards-image">
+                  <img
+                    src="./images/reactjs-logo.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                  <div class="card-header" id="card-header">
+                    <h5 class="card-title">ReactJS</h5>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      As someone with 3 months of training with ReactJS, I
+                      likely have a understanding of the basics of using the
+                      ReactJS platform to create and manage websites. I
+                      understand how to install ReactJS, Create Webpages and
+                      posts. you have a good foundation and can continue to
+                      build on your skills and knowledge to become a fresher
+                      ReactJSdeveloper.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container p-5"
+        id="skill-carousel"
+        style="background-color: #ddedf4"
+      >
+        <div
+          class="carousel slide carousel-dark"
+          data-bs-ride="carousel"
+          id="banner"
+        >
+          <div class="carousel-inner" style="border-radius: 300px">
+            <div class="carousel-item active">
+              <img src="./images/html-carousel.jpg" class="d-block w-100" />
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="./images/css-carousel.jpg" class="d-block w-100" />
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="./images/bootstrap-carousel.jpg"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="./images/sass-carousel.jpg" class="d-block w-100" />
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="./images/javascript-carousel.jpg"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="./images/react-carousel.jpg" class="d-block w-100" />
+            </div>
+          </div>
+          <!--========== carousel indicators ============= -->
+          <button
+            data-bs-slide="prev"
+            data-bs-target="#banner"
+            class="carousel-control-prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            data-bs-slide="next"
+            data-bs-target="#banner"
+            class="carousel-control-next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              class="active"
+              data-bs-slide-to="0"
+              data-bs-target="#banner"
+            ></button>
+            <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="2" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="3" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="4" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="5" data-bs-target="#banner"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skill-progress">
+      <div class="container" style="background-color: #a0aecd">
+        <div class="row p-5 justify-content-evenly">
+          <!--first col :- html,css,bootstrap-->
+          <div class="col-lg-5">
+            <!--html progress-->
+            <h3>Html</h3>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-animated bg-success progress-bar-striped"
+                style="width: 90%"
+              >
+                90%
+              </div>
+            </div>
+            <!--css progressbar-->
+            <h3>Css</h3>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-animated bg-success progress-bar-striped"
+                style="width: 80%"
+              >
+                80%
+              </div>
+            </div>
+            <!--Bootstrap-->
+            <h3>Bootstrap</h3>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-animated bg-success progress-bar-striped"
+                style="width: 75%"
+              >
+                75%
+              </div>
+            </div>
+          </div>
+          <!--Sedond column sass,javascript,reactjs-->
+          <div class="col-lg-5">
+            <h3>Sass</h3>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-animated bg-success progress-bar-striped"
+                style="width: 60%"
+              >
+                60%
+              </div>
+            </div>
+            <!--css progressbar-->
+            <h3>Javascript</h3>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-animated bg-success progress-bar-striped"
+                style="width: 80%"
+              >
+                80%
+              </div>
+            </div>
+            <!--Bootstrap-->
+            <h3>ReactJS</h3>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-animated bg-success progress-bar-striped"
+                style="width: 70%"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=================================== fixed icons at screen =========================-->
+    <div
+      id="fixed-icons"
+      style="
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+      "
+    >
+      <!--=====facebook====-->
+      <a href="https://www.facebook.com/pavan.jadhav.5249349" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <!--=====linked in====-->
+      <a
+        href="https://www.linkedin.com/in/pavan-jadhav-67baa1284"
+        target="_blank"
+      >
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <!--=====instagram====-->
+      <a href="https://www.instagram.com/pavanjadhav_1408/" target="_blank">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <!--=====twitter====-->
+      <a href="https://twitter.com/pavanjadha74028" target="_blank">
+        <i class="bi bi-twitter"></i>
+      </a>
+    </div>
+    <!--Footer-->
+    <footer class="bg-dark text-center text-white" id="contact">
+      <div class="container p-4 pb-0">
+        <!-- Social media icons -->
+        <section class="mb-4" id="contact-icons">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1 rounded rounded-circle"
+            href="https://www.facebook.com/pavan.jadhav.5249349"
+            role="button"
+            target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+
+          <!-- Linkedin-->
+          <a
+            class="btn btn-outline-light btn-floating m-1 rounded rounded-circle"
+            href="https://www.linkedin.com/in/pavan-jadhav-67baa1284/"
+            role="button"
+            target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+
+          <!-- instagram icon -->
+          <a
+            class="btn btn-outline-light btn-floating m-1 rounded rounded-circle"
+            href="https://www.instagram.com/pavanjadhav_1408/"
+            role="button"
+            target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+
+          <!-- twitter icon-->
+          <a
+            class="btn btn-outline-light btn-floating m-1 rounded rounded-circle"
+            href="https://twitter.com/pavanjadha74028"
+            role="button"
+            target="_blank"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <p class="text-white text-center">© 2023 Created By Pavan Jadhav</p>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <a href="mailto:jadhavpavan1408@gmail.com" id="mail"
+              >jadhavpavan1408@gmail.com</a
+            >
+          </div>
+          <div class="col-12">Mobile No :+91-7218742423</div>
+        </div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!--Type animation javascript-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "<b>A Web Developer</b>",
+          "<b>Front End Web Developer</b>",
+          "<b>UI Fullstack Developer</b>",
+          "<b>ReactJS Developer</b>",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <!--bootstrap js file-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

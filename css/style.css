@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*============= Navbar Styling ================ */
+.navbar {
+  position: fixed;
+  top: 0;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-item a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 0);
+  text-decoration-thickness: 4px;
+  transition: 2s;
+}
+/*========================== introduction Styling =================== */
+
+.introduction hr {
+  border-top: 1px solid;
+}
+.introduction .row {
+  padding: 20px;
+}
+.introduction img {
+  border-radius: 50%;
+  height: auto;
+  width: 80%;
+}
+/*lef-col of introduction */
+#element {
+  color: #8da242;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+#element ~ p {
+  text-align: justify;
+  font-size: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.icon2:hover {
+  border-radius: 35px;
+  box-shadow: 0px 0px 15px saddlebrown;
+}
+/*===================Education Section ===================*/
+
+#education .row div {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#education p {
+  text-align: justify;
+  word-break: break-all;
+  font-size: 20px;
+}
+#education .row div:hover {
+  box-shadow: 0px 0px 30px black;
+  border-radius: 20px;
+}
+/*===================Courses Section ===================*/
+#courses .row div {
+  margin-bottom: 15px;
+}
+#courses p {
+  text-align: justify;
+  word-break: break-all;
+  font-size: 20px;
+}
+#courses .row div:hover {
+  box-shadow: 0px 0px 20px #6bb77b;
+  border-radius: 20px;
+  transition: 2s;
+}
+/*====================== Skill ==========================*/
+#cards-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-text {
+  text-align: justify;
+  word-break: break-all;
+  font-size: 20px;
+}
+.card-title {
+  text-align: center;
+}
+.card {
+  border: none;
+}
+#card-header {
+  margin-top: 15px;
+  border-bottom: none;
+}
+/*==================== fixed icon ===================*/
+#fixed-icons a {
+  text-decoration: none;
+  color: darkcyan;
+}
+@media screen and (min-width: 992px) {
+  #fixed-icons a {
+    font-size: 2rem;
+  }
+}
+@media screen and( max-width: 991px) {
+  #fixed-icons a {
+    font-size: 1rem;
+  }
+}
+/*================ skill progress bar ================= */
+#skill-progress h3 {
+  margin-top: 15px;
+}
+/*media Query */
+@media (min-width: 768px) and (max-width: 991px) {
+  .card {
+    box-shadow: 0px 0px 10px yellowgreen;
+  }
+  #home img {
+    box-shadow: 0px 0px 5px yellowgreen;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card {
+    box-shadow: 0px 0px 10px #0a193a;
+  }
+  #home img {
+    box-shadow: 0px 0px 5pxcoral;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .card {
+    box-shadow: 0px 0px 10px yellow;
+  }
+  #home img {
+    box-shadow: 0px 0px 5px yellow;
+  }
+}
+@media (min-width: 1400px) {
+  .card {
+    box-shadow: 0px 0px 10px rgb(255, 77, 0);
+  }
+  #home img {
+    box-shadow: 0px 0px 5px rgb(255, 77, 0);
+  }
+}
+
+/*============= footer ===============*/
+#contact #contact-icons a:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+  background-color: orange;
+}
+#contact #contact-icons a {
+  transition: 1s;
+}
+/*=========== timer ===============*/
+#timer {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fdd935;
+}
